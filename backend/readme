@@ -1,0 +1,50 @@
+# ⚽ Football Stats Hub
+
+Full-stack web application for exploring football teams, players and statistics.
+
+## 🚀 Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- React Router
+- Axios
+- TanStack Query
+
+### Backend
+
+- Node.js
+- Express
+- MongoDB
+- Mongoose
+
+## ✨ Planned Features
+
+- User registration and login
+- JWT authentication
+- Role-based access control
+- Football teams
+- Football players
+- Player statistics
+- Live scores
+- Favorites
+- Personalized dashboard
+- Admin panel
+- Data visualization
+- Filtering and sorting
+- CSV/PDF export
+- Dark/Light mode
+- Responsive design
+- Testing
+- Security
+- Deployment
+
+## 📁 Project Structure
+
+```text
+football-stats-hub/
+├── backend/
+│   └── src/
+└── frontend/
+    └── src/
