@@ -1,0 +1,60 @@
+.players-container {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  padding: 40px;
+  color: #fff;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ffd700;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 25px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+}
+
+.player-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #ffd700;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .player-photo {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.team {
+  font-weight: bold;
+  color: #00e0ff;
+  margin: 8px 0;
+}
+
+.position {
+  font-style: italic;
+  color: #ddd;
+}

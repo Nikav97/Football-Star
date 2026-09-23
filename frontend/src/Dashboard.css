@@ -1,0 +1,128 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard-header h1 {
+  color: #333;
+}
+
+.user-list {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.user-list li {
+  background: #f9f9f9;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-list button:hover {
+  background: #c82333;
+}
+
+.league-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.league-table th, .league-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.league-table th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.league-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.league-table tr:hover {
+  background-color: #e9ecef;
+}
+
+
+/* Osnovni stil za dugmad */
+.btn {
+  padding: 8px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Različite boje */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+/* Hover efekti */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Opcionalno: mala senka da dugmad izgledaju "klikabilno" */
+.btn {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}

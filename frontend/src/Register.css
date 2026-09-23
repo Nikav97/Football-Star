@@ -1,0 +1,47 @@
+.register-container {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.input-error {
+  border-color: red;
+  background-color: #ffe6e6;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+}
+
+.password-rules {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+.password-rules li {
+  margin-bottom: 4px;
+}
+
+.password-rules li.valid {
+  color: green;
+}
+
+.password-rules li.invalid {
+  color: red;
+}
